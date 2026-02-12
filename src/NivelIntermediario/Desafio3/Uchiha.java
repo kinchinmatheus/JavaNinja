@@ -5,7 +5,7 @@ public class Uchiha extends Ninja {
     String habilidadeEspecial;
 
     public void mostrarHabilidadeEspecial() {
-        System.out.println("Habilidade Especial " + habilidadeEspecial);
+        System.out.println("Habilidade Especial: " + habilidadeEspecial);
     }
 
     @Override

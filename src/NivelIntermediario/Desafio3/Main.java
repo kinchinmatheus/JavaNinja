@@ -72,7 +72,13 @@ public class Main {
                         if (contador == 0) {
                             System.out.println("Não existe Ninjas cadastrados.");
                         } else {
-                            System.out.println("Qual Ninja quer mudar?");
+                            System.out.println("------ Ninjas disponíveis ------");
+                            for (int i = 0; i < contador; i++) {
+                                System.out.println((i + 1) + ". " + Ninjas[i].nome);
+                            }
+                            System.out.println("--------------------------------");
+                            System.out.println("Qual Ninja quer mudar? (Coloque o Nome)");
+
                             String escolha = sc.nextLine();
 
                             boolean encontrado = false;
