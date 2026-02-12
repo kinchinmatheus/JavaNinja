@@ -28,8 +28,14 @@ public class Main {
         Hinata.idade = 16;
         Hinata.DestruirMentes();
 
-
-
+        Boruto Boruto = new Boruto();
+        Boruto.nome = "Boruto Hyuga Uzumaki";
+        Boruto.aldeia = "Aldeia da Folha";
+        Boruto.idade = 9;
+        Boruto.ModoSabio();
+        Boruto.ativarKarma();
+        Boruto.ativarJougan();
+        Boruto.DestruirMentes();
 
     }
 
