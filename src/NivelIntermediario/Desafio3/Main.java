@@ -3,7 +3,7 @@ package NivelIntermediario.Desafio3;
 import java.util.Scanner;
 
 public class Main {
-    static void main() {
+    public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
         boolean continuar = true;
@@ -39,7 +39,9 @@ public class Main {
                         ninja.nome = sc.nextLine();
                         System.out.println("Insira a idade do Ninja");
                         ninja.idade = sc.nextInt();
-                        sc.nextLine(); // Consume newline
+                        sc.nextLine();
+                        System.out.println("Insira a Missão");
+                        ninja.missao = sc.nextLine();
                         System.out.println("Insira a dificuldade da Missão");
                         ninja.nivelDificuldade = sc.nextLine();
                         System.out.println("Insira o status da Missão");
