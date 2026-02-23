@@ -4,7 +4,24 @@ public class Main {
 
     static void main() {
 
-        Uzumaki Naruto = new Uzumaki();
+        Hokages Hashirama = new Hokages();
+        Hashirama.idade = 45;
+
+        Hokages Tobirama = new Hokages("Tobias");
+        System.out.println(Tobirama.nome);
+
+        Hokages Hiruzen = new Hokages(40);
+        System.out.println(Hiruzen.idade);
+
+        Hokages Minato = new Hokages("Minato Namikaze",32,false);
+
+
+    }
+
+
+}
+
+       /* Uzumaki Naruto = new Uzumaki();
         Naruto.nome = "Naruto Uzumaki";
         Naruto.aldeia = "Aldeia da Folha";
         Naruto.idade = 17;
@@ -27,6 +44,7 @@ public class Main {
         Hinata.aldeia = "Aldeia da Folha";
         Hinata.idade = 16;
         Hinata.DestruirMentes();
+        Hinata.executarHabilidade();
 
         Boruto Boruto = new Boruto();
         Boruto.nome = "Boruto Hyuga Uzumaki";
@@ -36,8 +54,4 @@ public class Main {
         Boruto.ativarKarma();
         Boruto.ativarJougan();
         Boruto.DestruirMentes();
-
-    }
-
-
-}
+*/
