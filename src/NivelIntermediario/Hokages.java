@@ -6,6 +6,13 @@ public class Hokages {
     int idade;
     boolean vivoOuNao;
 
+    public void mostrarInformacoes() {
+        System.out.println("Nome: " +  nome);
+        System.out.println("Idade: " +  idade);
+        System.out.println("Vivo? " + vivoOuNao);
+
+    }
+
     // No args constructor
     public Hokages() {
     }
